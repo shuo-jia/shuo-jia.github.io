@@ -19,10 +19,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <meta name="description" content="摘要： 单纯形法是解决线性规划问题的通用方法，但是当存在退化的基可行解时可能
-致使单纯形法失效。本文首先回顾了单纯形法及循环现象，而后归纳总结几种主流的解决循
-环现象的方法。注意从摄动法推导得到字典序法，这一内容的证明是由我自己补上的，难免
-稍显繁琐。">
+  <meta name="description" content="摘要： 单纯形法是解决线性规划问题的通用方法，但是当存在退化的基可行解时，单
+纯形法有失效的可能。本文首先回顾了单纯形法及循环现象，而后总结几种常见的解决方法。">
   
   
   
@@ -205,10 +203,8 @@ mjx-container[display="true"] + br {
 
     <div class="e-content article-entry article-with-titlenum" itemprop="articleBody">
       
-        <p><strong>摘要<span class="bd-box"><h-char class="bd bd-beg"><h-inner>：</h-inner></h-char></span></strong> 单纯形法是解决线性规划问题的通用方法<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>但是当存在退化的基可行解时可能
-致使单纯形法失效<span class="bd-box"><h-char class="bd bd-beg"><h-inner>。</h-inner></h-char></span>本文首先回顾了单纯形法及循环现象<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>而后归纳总结几种主流的解决循
-环现象的方法<span class="bd-box"><h-char class="bd bd-beg"><h-inner>。</h-inner></h-char></span>注意从摄动法推导得到字典序法<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>这一内容的证明是由我自己补上的<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>难免
-稍显繁琐<span class="bd-box"><h-char class="bd bd-beg"><h-inner>。</h-inner></h-char></span></p>
+        <p><strong>摘要<span class="bd-box"><h-char class="bd bd-beg"><h-inner>：</h-inner></h-char></span></strong> 单纯形法是解决线性规划问题的通用方法<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>但是当存在退化的基可行解时<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>单
+纯形法有失效的可能<span class="bd-box"><h-char class="bd bd-beg"><h-inner>。</h-inner></h-char></span>本文首先回顾了单纯形法及循环现象<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>而后总结几种常见的解决方法<span class="bd-box"><h-char class="bd bd-beg"><h-inner>。</h-inner></h-char></span></p>
 <span id="more"></span>
 <h2 id="单纯形法">单纯形法</h2>
 <p>为方便起见<span class="bd-box"><h-char class="bd bd-beg"><h-inner>，</h-inner></h-char></span>将线性规划问题<span class="bd-box"><h-char class="bd bd-end"><h-inner>（</h-inner></h-char></span>LP<span class="bd-box"><h-char class="bd bd-beg"><h-inner>）</h-inner></h-char></span>写为
